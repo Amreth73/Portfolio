@@ -132,16 +132,26 @@ ScrollReveal({
 
 });
 
-ScrollReveal().reveal('.home .info h2, .section-title-01,.section-title-02, .animated-text', {delay: 500,origin:'left'});
-ScrollReveal().reveal('.home .info h3, .home .info p,.about-info .btn', {delay: 600,origin:'right'});
-ScrollReveal().reveal('.home .info .btn', {delay: 700,origin:'bottom'});
-ScrollReveal().reveal('.media-icons i,.contact-left li', {delay: 500,origin:'left',interval:100});
-ScrollReveal().reveal('.home-img, .about-img', {delay: 500,origin:'bottom'});
-ScrollReveal().reveal('.about .description, .contact-right', {delay: 600,origin:'right'});
-ScrollReveal().reveal('.about .professional-list li', {delay: 500,origin:'right',interval:100});
-ScrollReveal().reveal('.skills-description,.service-description,.contact-card,.client-card,.client-swiper,.contact-left h2', {delay: 700,origin:'left'});
-ScrollReveal().reveal('.experience-card, .service-card,.education,.portfolio .img-card', {delay: 800,origin:'bottom',interval:200});
-ScrollReveal().reveal('footer .group', {delay: 800,origin:'top',interval:100});
+ScrollReveal().reveal('.home .info h2, .section-title-01,.section-title-02, .animated-text', {origin:'left'});
+ScrollReveal().reveal('.home .info h3, .home .info p,.about-info .btn', {origin:'right'});
+ScrollReveal().reveal('.home .info .btn', {origin:'bottom'});
+ScrollReveal().reveal('.media-icons i,.contact-left li', {origin:'left'});
+ScrollReveal().reveal('.home-img, .about-img', {origin:'bottom'});
+ScrollReveal().reveal('.about .description, .contact-right', {origin:'right'});
+ScrollReveal().reveal('.about .professional-list li', {origin:'right'});
+ScrollReveal().reveal('.skills-description,.service-description,.contact-card,.client-card,.client-swiper,.contact-left h2', {origin:'left'});
+ScrollReveal().reveal('.experience-card, .service-card,.education,.portfolio .img-card', {origin:'bottom'});
+ScrollReveal().reveal('footer .group', {origin:'top'});
+// ScrollReveal().reveal('.home .info h2, .section-title-01,.section-title-02, .animated-text', {delay: 100,origin:'left'});
+// ScrollReveal().reveal('.home .info h3, .home .info p,.about-info .btn', {delay: 200,origin:'right'});
+// ScrollReveal().reveal('.home .info .btn', {delay: 300,origin:'bottom'});
+// ScrollReveal().reveal('.media-icons i,.contact-left li', {delay: 200,origin:'left',interval:100});
+// ScrollReveal().reveal('.home-img, .about-img', {delay: 200,origin:'bottom'});
+// ScrollReveal().reveal('.about .description, .contact-right', {delay: 200,origin:'right'});
+// ScrollReveal().reveal('.about .professional-list li', {delay: 200,origin:'right',interval:100});
+// ScrollReveal().reveal('.skills-description,.service-description,.contact-card,.client-card,.client-swiper,.contact-left h2', {delay: 200,origin:'left'});
+// ScrollReveal().reveal('.experience-card, .service-card,.education,.portfolio .img-card', {delay: 100,origin:'bottom'});
+// ScrollReveal().reveal('footer .group', {delay: 100,origin:'top',interval:100});
 
 
 
@@ -164,3 +174,13 @@ document.getElementById('download-btn').addEventListener('click', function() {
 
 
 
+
+
+function clearFieldsAfterDelay(event) {
+    setTimeout(() => {
+        document.getElementById('name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('subject').value = '';
+        document.getElementById('message').value = '';
+    }, 2000);
+}

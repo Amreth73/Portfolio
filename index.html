@@ -81,7 +81,7 @@
                             <h3>I'm Amreth</h3>
                             <h4>A anticipating <span> Front-End developer </span></h4>
                             <p>I design and develop services for customers specializing creating stylish,
-                                 modern websites, web service and online stores. My passion is to design digital user experiences through
+                                 modern websites, web service. My passion is to design digital user experiences through
                                  meaningful interactions. Check out my Portfolio.
                             </p>
                         </div>
@@ -100,7 +100,7 @@
                                      support</span>
                             </li>
                         </ul>
-                        <a  href="C:\Users\HP\Downloads\myresume.pdf" download class="btn" id="cv">Download CV<i class="fas fa-download"></i></a>
+                        <a  href="https://drive.google.com/file/d/1wc96YTt765AuIjy4suNZmf8efjVCZ1Gl/view?usp=drive_link" download class="btn" id="cv">Download CV<i class="fas fa-download"></i></a>
                     </div>
                 </div>
             </div>
@@ -113,25 +113,24 @@
             <div class="content">
                 <div class="skills-description">
                     <h3>Education & Skills</h3>
-                    <p>Proficient in HTML, CSS, JavaScript, and React. Experienced with backend development using Node.js. Familiar with databases like MongoDB. pursuing bachelor's degree in Computer Science. Strong problem-solving skills and teamwork abilities.
+                    <p>Proficient in HTML, CSS, JavaScript, and React. Experienced with backend development using Node.js. Familiar with databases like mySQL. Pursuing bachelor's degree in Computer Science. Strong problem-solving skills and teamwork abilities.
                     </p>
                 </div>
                 <div class="skills-info education-all">
                     <div class="education">
                         <h4><label for="">Education</label></h4>
                         <ul class="edu-list">
-                            <li class="item">
-                                <span class="year">2019-2020</span>
-                                <p><span>Complete SSLC</span> - Cheran vidhayalaya matric higher secondary school, Dindugul, Tamil Nadu</p>
+                            <li class="item" style="margin-bottom: 10px;">
+                                <span class="year">2022-2026</span>
+                                <p><span>Pursuing B.E Computer Science Engineering </span> - Sri Krishna College of Engineering and technology, Coimbatore, Tamil Nadu</p>
+                                <br><h5>CGPA - 8.17</h5>
                             </li>
                             <li class="item">
                                 <span class="year">2021-2022</span>
                                 <p><span>Complete HSC</span> - Cheran vidhayalaya matric higher secondary school, Dindugul, Tamil Nadu</p>
+                                <br><h5>Percentage - 89%</h5>
                             </li>
-                            <li class="item" style="margin-bottom: 10px;">
-                                <span class="year">2022-2026</span>
-                                <p><span>pursuing B.E Computer Science Engineering </span> - Sri Krishna College of Engineering and technology, Coimbatore, Tamil Nadu</p>
-                            </li>
+                           
                         </ul>
                     </div>
                     <div class="education">
@@ -461,16 +460,17 @@
                 </div>
                 <div class="contact-right">
                     <p>I'm always open to discussing product <br> <span>design work or partnerships.</span></p>
-                    <form action="" class="contact-form">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" onsubmit="clearFieldsAfterDelay(event)">
+                        <input type="hidden" name="access_key" value="744bbeaf-8a8f-4778-93ea-1cff574fa8e9">
                         <div class="first-row">
-                            <input type="text" placeholder="Name" id="">
+                            <input type="text" name="Name" placeholder="Name" id="name" required>
                         </div>
                         <div class="second-row">
-                            <input type="email" placeholder="Email" id="">
-                            <input type="text" placeholder="Subject" id="">
+                            <input type="email" name="Email" placeholder="Email" id="email" required>
+                            <input type="text" name="Subject"  placeholder="Subject" id="subject" required>
                         </div>
                         <div class="third-row">
-                            <textarea name="message" id="" rows="7" placeholder="Message"></textarea>
+                            <textarea name="Message" id="message" rows="7" placeholder="Message" required></textarea>
                         </div>
                         <button class="btn" type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
                     </form>
