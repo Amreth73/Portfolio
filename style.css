@@ -446,6 +446,7 @@ header.sticky .nav-bar
     margin-top: 15px;
     border-radius: 6px;
     transition: 0.3s ease;
+    margin-bottom: 20px;
 }
 .edu-list .item .year
 {
@@ -1394,6 +1395,10 @@ footer a
 @media screen and (max-width: 730px) {
     .container {
         padding: 0 10px;
+    }
+    .education h4
+    {
+        display: none;
     }
 
     .content {
