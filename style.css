@@ -1079,15 +1079,7 @@ footer a
         visibility: visible;
         opacity: 1;
     }
-    /* .portfolio-model
-    {
-        margin-top: 100px;
-    } */
-
-    /* .service-modal
-    {
-        margin-top: 150px;
-    } */
+    
     .nav-items {
         position: relative;
         background: var(--modal-bg-color);
