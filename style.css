@@ -540,6 +540,10 @@ header.sticky .nav-bar
 {
     width: 75%;
 }
+.bar .native::before
+{
+    width: 60%;
+}
 
 .experience-card
 {
